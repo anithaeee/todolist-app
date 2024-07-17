@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import 'primereact/resources/themes/lara-light-blue/theme.css'; 
+import './todoapp.css';
 const Todoapp = () => {
   return (
     <div className="container">

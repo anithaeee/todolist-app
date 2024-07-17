@@ -1,0 +1,8 @@
+.headerstyle {
+  height: 10rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  align-items: center;
+  position: fixed;
+}

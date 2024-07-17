@@ -10,5 +10,9 @@
 .container {
   display: flex;
   justify-content: center;
-  min-height: 30%;
+  background-image: url("C:\Users\Anitha Reddy\Documents\React-Projects\todo-app\todolist\public\assets\blue.jpeg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
