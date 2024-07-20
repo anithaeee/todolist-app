@@ -1,8 +1,10 @@
 .headerstyle {
-  height: 10rem;
+  height: 5rem;
   width: 100%;
-  background-color: black;
+  background-color: rgb(7, 123, 195);
   color: white;
   align-items: center;
   position: fixed;
+  justify-content: center;
+  align-content: center;
 }

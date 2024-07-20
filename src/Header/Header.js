@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="headerstyle">
       <div>
-        <h1>Study App</h1>
+        <h3>Study App</h3>
       </div>
     </div>
   )

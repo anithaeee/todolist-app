@@ -6,15 +6,22 @@ import 'primereact/resources/themes/lara-light-blue/theme.css';
 import './todoapp.css';
 const Todoapp = () => {
   return (
-    <div className="container">
-     <div className="background">
-       <h3 className="heading">Todo-Application</h3>
-       <div className="input-field">
-        <InputText style={{margin:"10px"}} />
-        <Button label="Add" style={{margin:"10px"}} />
-       </div>
+    <div className="container1">
+      <div className="Tile1">
+      </div>
+      <div style={{width:"8px"}}></div>
+      <div className="Tile1">
+      </div>
+      <div style={{width:"8px"}}></div>
+      <div className="Tile1">
+      </div>
+      <div style={{width:"8px"}}></div>
+      <div className="Tile1">
+      </div>
+      <div style={{width:"8px"}}></div>
+      <div className="Tile1">
+      </div>
      </div>
-    </div>
   )
 }
 
