@@ -21,10 +21,18 @@
   flex-direction: row;
 }
 .Tile1 {
-  font-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 10rem;
   min-width: 7rem;
   background-color: antiquewhite;
+  border-radius: 5px;
+  padding-inline: 7px;
+}
+.container1:hover{
+  background-color: aqua;
+}
+.Tile1:hover {
+  background-color: aquamarine;
 }
