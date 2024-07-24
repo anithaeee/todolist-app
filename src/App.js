@@ -3,7 +3,7 @@ import './App.css';
 import '../src/Todoapp/todoapp.css';
 import Todoapp from './Todoapp/Todoapp.js';
 import Header from '../src/Header/Header.js';
-import Form from '../src/Form/Form'
+import Form from '../src/Form/Form';
 
 function App() {
   return (

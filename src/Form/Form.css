@@ -1,0 +1,15 @@
+.container{
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100vh;
+}
+
+.user-label{
+width: 10%;
+margin-right: 5px;
+text-align: left;
+}
+.btn {
+  margin-left: 5px;
+  background-color: lightblue;
+}
