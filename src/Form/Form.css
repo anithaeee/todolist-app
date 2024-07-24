@@ -1,15 +1,18 @@
-.container{
-  background-color: antiquewhite;
-  width: 100%;
+.container1{
+  background-color: antiquewhite !important;
+  width: 30%;
   height: 100vh;
-}
-
-.user-label{
-width: 10%;
-margin-right: 5px;
-text-align: left;
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
 }
 .btn {
   margin-left: 5px;
   background-color: lightblue;
+}
+.inputcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
 }

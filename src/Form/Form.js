@@ -5,34 +5,44 @@ import { Calendar } from 'primereact/calendar';
 import { Button } from 'primereact/button';
 const Form = () => {
   return (
-    <div className="container">
-      <div className="Login Form">
-        <h3>Login Form</h3>
-      </div>
-      <div className="flex flex-column gap-2 mb-2">
+    <div className="container" style={{display:"flex",justifyItems:"center"}}>
+    <div className="container1">
+
+      <div className="inputcontainer">
+        <div>
         <label htmlFor="username" className=" ml-3 user-label">Username</label>
-        <InputText className="w-25" />
+        <InputText />
+        </div>
       </div>
-      <div className="flex flex-column gap-2 mb-2">
+      <div className="inputcontainer">
+        <div>
         <label htmlFor="Mail Id" className="user-label">Maii Id</label>
-        <InputText  className="w-25" />
+        <InputText />
+        </div>
       </div>
-      <div className="flex flex-column gap-2 mb-2">
+      <div className="inputcontainer">
+        <div>
         <label htmlFor="Mobile Number" className="user-label">Mobile Number</label>
-        <InputText  className="w-25" />
+        <InputText />
+        </div>
       </div>
-      <div className="flex flex-column gap-2 mb-2">
+      <div className="inputcontainer">
+        <div>
         <label htmlFor="Passedout" className="user-label">Passedout</label>
-        <InputText  className="w-25" />
+        <InputText />
+        </div>
       </div>
-      <div className="flex flex-column gap-2 mb-2">
+      <div className="inputcontainer">
+        <div>
         <label htmlFor="Skills" className="user-label">Skills</label>
-        <InputText  className="w-25" />
+        <InputText />
+        </div>
       </div>
       <div className="button gap-2">
       <Button label="Submit" className="btn"/>
       <Button label="Cancel" className="btn" />
       </div>
+    </div>
     </div>
   );
 };
